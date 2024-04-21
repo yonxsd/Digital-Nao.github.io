@@ -1,0 +1,11 @@
+.map{
+    margin-top: 7rem;
+    margin-left: 40rem;
+   
+}
+
+.map > h1 {
+   font-size: 25px;
+   margin-left: -32rem;
+   margin-top: -2rem; 
+}
