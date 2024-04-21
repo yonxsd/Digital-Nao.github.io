@@ -1,5 +1,5 @@
 
-import "../components/Recentsale.css"
+import "./style/Recentsale.css"
 
 const Recentsale = () => {
   return (

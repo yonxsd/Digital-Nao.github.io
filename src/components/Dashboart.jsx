@@ -1,6 +1,6 @@
 import React from 'react'
 
-import "./Dashboart.css"
+import "./style/Dashboart.css"
 import Chart from "react-apexcharts";
 import ChoroplethMap from './graph/ChoroplethMap';
 import data from '../data/mapData';

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Chart } from "react-google-charts";
-import "../components/Map.css"
+import "./style/Map.css"
 const Map = () => {
     const data = [
       

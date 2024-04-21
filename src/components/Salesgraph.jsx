@@ -1,6 +1,6 @@
 import React from 'react'
 import Chart from "react-apexcharts";
-import "./Salesgraph.css";
+import "./style/Salesgraph.css";
 
 const Salesgraph = () => {
   const data = {
