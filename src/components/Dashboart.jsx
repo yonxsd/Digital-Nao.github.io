@@ -2,8 +2,7 @@ import React from 'react'
 
 import "./style/Dashboart.css"
 import Chart from "react-apexcharts";
-import ChoroplethMap from './graph/ChoroplethMap';
-import data from '../data/mapData';
+
 
 const Dashboart = () => {
   const data = {
