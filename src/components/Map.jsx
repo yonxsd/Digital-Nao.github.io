@@ -17,6 +17,8 @@ const Map = () => {
     ];
   return (
     <div className='map'>
+          
+        {/* Graph map */}
         <h1>Sales in countries</h1>
         <Chart
            chartEvents={[

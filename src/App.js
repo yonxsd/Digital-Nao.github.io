@@ -10,7 +10,7 @@ import Recentsale from './components/Recentsale';
 
 const App = () => {
   return (
-    <>
+    <> {/* los enlaces para que se pueda visualisar mas se esta utilisando los enrutadoeres para que cuando el cliente quiera cabiar de seccion se cambie ayi mismo y no se vaya a otra paguina */}
       <BrowserRouter>
          <Routes>
            <Route path='/' element={<Sidebar />}>
@@ -22,6 +22,7 @@ const App = () => {
            </Route>
          </Routes>
       </BrowserRouter>
+      {/*----------- */}
     </>
   )
 }

@@ -40,6 +40,7 @@ const Dashboart = () => {
   
   return (
     <div>
+        {/*tablero de informacion de ventas de campaña y numero de clientes */}
         <div className="stats shadow num">
           
           <div className="stat w-80 h-64">
@@ -52,29 +53,23 @@ const Dashboart = () => {
           </div>
   
           <div className="stat w-80">
-            <div className="stat-figure text-secondary">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-            </div>
+            
             <div className="stat-title text-2xl font-bold">Current sales campaign</div>
             <div className="stat-value text-secondary">2.6M</div>
             <div className="stat-desc">21% more than last month</div>
           </div>
-  
-          <div className="stat w-80">
-            <div className="stat-title text-2xl font-bold">New Registers</div>
-            <div className="stat-value">1,200</div>
-            <div className="stat-desc">↘︎ 90 (14%)</div>
-          </div>
+          
            
         </div>
-         
+        {/*------------------ */} 
         
-
+        {/* grafica de most selled products*/}
         <div className='das'>
           <h1 className='most'>most selled products</h1>
           <Chart options={data.options} series={data.series} type="area" />
         </div>
-       
+        {/*----------- */}
+        {/* table de clientes */}
         <div className="overflow-x-auto dr">
           <table className="table">
             {/* head */}
@@ -226,6 +221,7 @@ const Dashboart = () => {
             
           </table>
        </div>
+       {/*--------- */}
     </div>
   )
 }

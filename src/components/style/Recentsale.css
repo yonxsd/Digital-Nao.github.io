@@ -1,10 +1,14 @@
+ /* ajuste de tabla*/
 .tabvent{
     margin-left: 28.8rem;
     margin-top: 5rem;
 }
+/*-------*/
 
+/* reducir el tamaño de la letra mas la psicion del texto*/
 .cur{
     font-size: 25px;
     margin-left: 5rem;
     margin-top: 1rem;
 }
+/*------*/

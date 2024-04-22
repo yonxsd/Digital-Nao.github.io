@@ -6,6 +6,7 @@ const Sidebar = () => {
   return (
     <>
          <div className="navbar bg-base-100">
+             {/* Sidebar y sus secciones  */}
             <div className="drawer">
               <input id="my-drawer" type="checkbox" className="drawer-toggle" />
               <div className="drawer-content">
@@ -50,7 +51,7 @@ const Sidebar = () => {
                      <br/>
                      <br/><br/>
                      <br/>
-                      
+                      {/* Customer Sopport */}
                      <h1 className='flex justify-center'>Customer Support</h1>
                      <h2 className=' grid grid-cols-1.2 gap-1 place-content-center h-48'>Ask you query , place
                         requests or important
@@ -59,24 +60,28 @@ const Sidebar = () => {
                         to you. 
                       </h2>
                      <button className="btn glass">Glass button</button>
+                     {/*----- */}
                      <br />
                      <br />
                      <br />
                      <br />
                      <br />
                      <br />
+                     {/* politica y privacidad */}
                      <h3 className='cursor-default' >Terms & Services</h3>
                      <h3 className='cursor-default'>Privacy Policy</h3>
+                     {/*----------- */}
                 </ul>
                 
               </div>
             </div>
-            
+            {/*buscador */}
             <label className="input input-bordered flex items-center gap-2  ">
               <input type="text" className="grow" placeholder="Search" />
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70 "><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" /></svg>
             </label>
-             
+             {/*-------- */}
+             {/* iconos de mensajes y notificacion como tambien el perfil del cliente que tambien contien sus seccion*/}
            <div className="flex-none gap-2 ">
                 <button className="btn btn-ghost btn-circle">
                     <div className="indicator">
@@ -110,10 +115,12 @@ const Sidebar = () => {
             </div>
             
          </div> 
-                 
+          {/*------------ */}
+          {/*para que se pueda visualisar */}       
          <section>
             <Outlet></Outlet>
          </section>
+         {/*----------- */}
     </>
   )
 }

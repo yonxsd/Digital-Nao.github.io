@@ -33,6 +33,7 @@ const Salesgraph = () => {
   
   return (
     <div>
+      {/* graph current campaign sales */}
       <h1 className='text-2xl cus z-40'>Current campaign sales</h1>
       <div className='salt'><Chart options={data.options} series={data.series} type="area" /></div>
     </div>

@@ -4,6 +4,7 @@ import "./style/Recentsale.css"
 const Recentsale = () => {
   return (
     <div>
+        {/* listado de ventas */}
        <h1 className="cur">Recent sales</h1>
       <div className="overflow-x-auto tabvent">
         <table className="table table-xs">

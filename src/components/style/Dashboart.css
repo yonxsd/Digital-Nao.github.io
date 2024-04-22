@@ -1,23 +1,29 @@
+
+/*posicionamiento y color*/
 .num{
     margin-left: 7rem;
     margin-top: 3rem;
     background-color: rgb(46, 48, 58);
 }
-
+/*------*/
+/*posicionamiento de graph*/
 .das{
     width: 47 rem;
     height: 7rem;
     margin-left: 70rem;
     margin-top: 3rem;
 }
-
+/*-------*/
+/*tamaño de letra y posicion*/
 .most{
     font-size: 25px;
     margin-top: -20rem;
 }
-
+/*------*/
+/*posicionamiento de la tabla de clientes*/
 .dr{
     margin-top: 15rem;
     width: 50rem;
     margin-left: 20rem;
 }
+/*----*/

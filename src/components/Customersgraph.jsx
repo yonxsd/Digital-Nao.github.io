@@ -353,7 +353,9 @@ const Customersgraph = () => {
   };
 
   return (
+    
     <div>
+      {/* graph  customers*/}
       <h1 className='text-2xl cus z-40'>Customers graph</h1> 
       <h3 className='cus '>number of total clients</h3>
       <div className='customgraph'><Chart options={data.options} series={data.series} type="area" /></div>
