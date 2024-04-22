@@ -59,7 +59,7 @@ const Sidebar = () => {
                         team will contact 24/7 
                         to you. 
                       </h2>
-                     <button className="btn glass">sopport</button>
+                     <button className="btn glass">Connect Now</button>
                      {/*----- */}
                      <br />
                      <br />
