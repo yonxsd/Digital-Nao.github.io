@@ -114,7 +114,9 @@ const Sidebar = () => {
                 </div>
             </div>
             
-         </div> 
+        </div> 
+
+
           {/*------------ */}
           {/*para que se pueda visualisar */}       
          <section>
