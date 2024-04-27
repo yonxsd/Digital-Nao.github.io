@@ -2,6 +2,7 @@
   "name": "my-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/yonxsd/Digital-Nao.github.io.git",
   "dependencies": {
     "@nivo/core": "^0.85.1",
     "@nivo/geo": "^0.85.1",
