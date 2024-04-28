@@ -1,4 +1,8 @@
-export const ChoroplethData = [
+export const getRandomData = (min) =>
+Math.floor(Math.random() * (1000000 - min + 1) - min);
+
+
+export default [
     {
         "id": "AFG",
         "value": 887895
@@ -683,4 +687,4 @@ export const ChoroplethData = [
         "id": "KOR",
         "value": 778768
       }
-]
+];

@@ -14,6 +14,7 @@ const Map = () => {
         ["Mexico",1500],
         ["Chile", 100],
         ["Argentina", 200],
+        ["Ecuador",20],
     ];
   return (
     <div className='map'>
@@ -34,8 +35,8 @@ const Map = () => {
              },
            ]}
            chartType="GeoChart"
-           width="95%"
-           height="700px"
+           width="65%"
+           height="300px"
            data={data}
         />
     </div>

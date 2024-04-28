@@ -1,11 +1,16 @@
 import { ResponsiveChoropleth} from "@nivo/geo";
-import { ChoroplethData } from "../data/ChoroplethData";
+import data, { getRandomData } from "../data/ChoroplethData";
+import countries from "./world_countries.json";
 const Geo = () => {
   return (
     <div style={{ height: "400px" }}>
       <h2>My Awesome Stream</h2>
       <ResponsiveChoropleth
-        data={ChoroplethData}
+        data={countries.features?.map((i, idx) => ({
+            ...i,
+            id: i?.properties.id,
+            value: getRandomData(idx)
+          }))}
         features="/* please have a look at the description for usage */"
         margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
         colors="nivo"
