@@ -116,7 +116,7 @@ const Sidebar = () => {
     
     </div>
     {/* Page content here */}
-    <div className='relative h-32 w-132  bg-white conted'>
+    <div className='relative h-32 w-132   conted'>
       <div className='absolute inset-0'>
         
            <Routes>
