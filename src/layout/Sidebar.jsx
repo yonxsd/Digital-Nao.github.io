@@ -6,6 +6,7 @@ import imag from '../assets/tablero.png';
 import imt from "../assets/grafico-de-barras.png";
 import image from '../assets/grafico.png';
 import im from '../assets/mesa.png';
+import int from "../assets/asistente-personal.png";
 import "./Sidebar.css"
 import { Link } from "react-router-dom";
 import { Route, Routes } from 'react-router-dom';
@@ -61,6 +62,10 @@ const Sidebar = () => {
             <li className="flex  rounded-md p-2 pt-6 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4 ">
               <img src= {im} />
               <li className={`${!open && "scale-0"}`}><Link as={Link} to="/Recentsale">Recent sale</Link></li>
+            </li>
+            <li className="flex  rounded-md p-2 pt-6 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4 Soport">
+              <img src= {int} />
+              <li className={`${!open && "scale-0"}`}><Link as={Link} to="/Recentsale">Connect Now</Link></li>
             </li>
         </ul>
       </div>
