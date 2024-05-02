@@ -6,8 +6,8 @@ import Form from "./form/Formulario";
 const App = () => {
   return (
     <div >
-       {/*<Sidebar />*/}
-       <Form />
+       <Sidebar />
+       {/*<Form />*/}
     </div>
     
   )
