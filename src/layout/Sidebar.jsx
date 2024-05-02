@@ -48,7 +48,7 @@ const Sidebar = () => {
           
             <li className="flex  rounded-md p-2 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4 ">
               <img src= {imag} />
-              <li className={`${!open && "scale-0"}`}><Link as={Link} to="/" >dashboart </Link></li>
+              <li className={`${!open && "scale-0"}`}><Link as={Link} to="/" >dashboard </Link></li>
               
             </li>
             <li className="flex  rounded-md p-2 pt-6 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4 ">

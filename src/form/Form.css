@@ -1,4 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+.error1{
+    font-size: 11px;
+    position: relative;
+    color: red;
+    margin-top: -1rem;
+}
+
+.error2{
+    font-size: 11px;
+    position: relative;
+    color: red;
+    margin-top: -1rem;
+    margin-left: 0.5rem;
+}
+
+.error3{
+    font-size: 11px;
+    position: relative;
+    color: red;
+    margin-top: -1rem;
+    margin-left: 0.5rem;
+}
+
+.error4{
+    font-size: 11px;
+    position: relative;
+    color: red;
+    margin-top: -1rem;
+    margin-left: 0.5rem;
+}
+
+.error5{
+    font-size: 11px;
+    position: relative;
+    color: red;
+    margin-top: -1rem;
+    margin-left: 0.5rem;
+}
 
 .img{
     display: flex;
@@ -14,10 +53,153 @@
 }
 
 .form{
+    font-family: "Zilla Slab", serif;
+  font-weight: 600;
+  font-style: normal;
+    position: relative;
     background-color: white;
     width: 25%;
     height: 51rem;
     margin-top: 2rem;
     margin-left: 72%;
     border-radius: 0px 30px 30px 0px;
+}
+
+.Tit > h1{
+    position: absolute;
+   font-size: 25px;
+   margin-left: 2rem;
+   
+}
+
+.nom{
+ position: absolute;
+ margin-top: 4rem;
+ margin-left: 2.2rem;
+ 
+}
+
+.nom > input{
+    padding-left: 20px;
+    position: absolute;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-left: -4.6rem;
+    
+}
+
+.nom ::placeholder{
+    position: absolute;
+    margin-left: 0.1rem;
+    color: rgba(255, 255, 255, 0.809);
+}
+
+
+
+.cor{
+    position: absolute;
+    margin-top: 11rem;
+    margin-left: 2.3rem;
+}
+
+
+.cor ::placeholder{
+    position: absolute;
+    margin-left: 0.1rem;
+    color: rgba(255, 255, 255, 0.809);
+}
+.cor > input{
+    padding-left: 20px;
+    position: absolute;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-left: -2.7rem;
+}
+
+
+.cal{
+    position: absolute;
+    margin-top: 18rem;
+    margin-left: 2.5rem;
+}
+
+.cal ::placeholder{
+    position: absolute;
+    margin-left: 0.1rem;
+    color: rgba(255, 255, 255, 0.809);
+}
+
+.cal > input{
+    padding-left: 20px;
+    position: absolute;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-left: -2.9rem;
+}
+
+.con{
+    position: absolute;
+    margin-top: 25rem;
+    margin-left: 2.5rem;
+}
+
+.con ::placeholder{
+    position: absolute;
+    margin-left: 0.1rem;
+    color: rgba(255, 255, 255, 0.809);
+}
+
+.con > input{
+    padding-left: 20px;
+    position: absolute;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-left: -4.3rem;
+}
+
+.cont{
+    position: absolute;
+    margin-top: 32rem;
+    margin-left: 2.5rem;
+}
+
+.cont ::placeholder{
+    position: absolute;
+    margin-left: 0.1rem;
+    color: rgba(255, 255, 255, 0.809);
+}
+
+.cont > input{
+    padding-left: 20px;
+    position: absolute;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-left: -7.9rem; 
+}
+
+
+.form > button{
+    position: absolute;
+    margin-top: 41rem;
+    margin-left: 5.1rem;
+    width: 60%;
+    color: rgba(255, 255, 255, 0.809);
+}
+
+.cargando{
+    position: absolute;
+    margin-top: 40rem;
+    margin-left: 12rem;
+    
+    color: black;
 }
