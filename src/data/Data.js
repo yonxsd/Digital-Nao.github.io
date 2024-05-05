@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import{
     MdDashboard,
     MdDiversity3,
-    MdAddCard,
+
     MdAirportShuttle,
     MdShoppingBag,
-    MdSettings,
+    
 }from "react-icons/md";
-// icons y heading que estan aqui se muestra pero en el menu de  sidebar 
+// icons y heading que están aquí se muestra pero en el menu de  sidebar 
 export const SidebarData = [
    {
     icon: MdDashboard,

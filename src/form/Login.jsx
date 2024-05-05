@@ -77,7 +77,7 @@ const Login = () => {
               {({errors} ) => (
                 //formulario
                 <Form className='form' onSubmit={(e) => handleSubmit(e)}>
-                <h1>Login Here 📝</h1>
+                <h1 className="Tit">Registro Panel Admin ⚙️</h1>
                 <div className="nom">
                 <label htmlFor="nombre">Full name</label>
                 <Field
@@ -158,7 +158,7 @@ const Login = () => {
                   )} />
                 </div>
                 <button type="submit" className="submit_btn">
-                  submit
+                  Register
                 </button>
                
               </Form>

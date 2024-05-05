@@ -65,7 +65,7 @@
     border-radius: 0px 30px 30px 0px;
 }
 
-.Tit > h1{
+.Tit {
     position: absolute;
    font-size: 25px;
    margin-left: 2rem;
