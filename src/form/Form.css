@@ -57,7 +57,7 @@
   font-weight: 600;
   font-style: normal;
     position: relative;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 25%;
     height: 51rem;
     margin-top: 2rem;
@@ -117,7 +117,7 @@
     height: 3rem;
     border-radius: 0.5rem;
     margin-top: 2rem;
-    margin-left: -2.7rem;
+    margin-left: -2.9rem;
 }
 
 
@@ -136,7 +136,7 @@
 .cal > input{
     padding-left: 20px;
     position: absolute;
-    width: 20rem;
+    width: 19.5rem;
     height: 3rem;
     border-radius: 0.5rem;
     margin-top: 2rem;
@@ -158,11 +158,12 @@
 .con > input{
     padding-left: 20px;
     position: absolute;
-    width: 20rem;
+    width: 19.5rem;
     height: 3rem;
     border-radius: 0.5rem;
     margin-top: 2rem;
     margin-left: -4.3rem;
+
 }
 
 .cont{
@@ -180,7 +181,7 @@
 .cont > input{
     padding-left: 20px;
     position: absolute;
-    width: 20rem;
+    width: 19.3rem;
     height: 3rem;
     border-radius: 0.5rem;
     margin-top: 2rem;
