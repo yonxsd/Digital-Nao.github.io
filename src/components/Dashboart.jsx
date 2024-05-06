@@ -11,7 +11,7 @@ const Dashboart = () => {
     <div>
       <div className='vent'> 
         <br />
-        <div className="stat-title vet1">Total Likes</div>
+        <div className="stat-title vet1">Customers</div>
        <div className=" text-amber-600 vent2">25.6K</div>
        <div className="stat-desc vent3">21% more than last month</div>
        <div className="stat-figure text-amber-600 logv">
@@ -22,7 +22,7 @@ const Dashboart = () => {
        
       <div className='ent'> 
         <br />
-        <div className="stat-title vet1">Total Likes</div>
+        <div className="stat-title vet1">Sales</div>
        <div className=" text-amber-600 vent2">25.6K</div>
        <div className="stat-desc vent3">21% more than last month</div>
        <div className="stat-figure text-amber-600 logv">
