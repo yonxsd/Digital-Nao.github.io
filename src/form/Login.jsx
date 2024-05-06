@@ -79,7 +79,7 @@ const Login = () => {
                 <Form className='form' onSubmit={(e) => handleSubmit(e)}>
                 <h1 className="Tit">Registro Panel Admin ⚙️</h1>
                 <div className="nom">
-                <label htmlFor="nombre">Full name</label>
+                <label htmlFor="name">Full name</label>
                 <Field
                  type="name" 
                   id="name"
