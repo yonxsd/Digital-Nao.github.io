@@ -32,7 +32,7 @@ const Login = () => {
               password:'',
               confirmPassword:''  
             }}
-            //formulario
+            //validaciones del formulario
             validate={(valores) => {
               let errores = {};
               //validación de nombre
