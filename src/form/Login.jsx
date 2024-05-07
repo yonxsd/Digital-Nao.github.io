@@ -8,7 +8,7 @@ import "./Form.css"
 
 const Login = () => {
   const [formularioenviado, cambiarformularioenviado] = useState(false);
-
+   
   const dispatch = useDispatch();
   const handleSubmit = (e) => {
       e.preventDefault();
@@ -24,6 +24,7 @@ const Login = () => {
     <>
        <div className='fr'>
           <Formik
+            
             initialValues={{
               nombre:'',
               correo:'',
@@ -31,6 +32,7 @@ const Login = () => {
               password:'',
               confirmPassword:''  
             }}
+            {/*validaciones del formulario */}
             validate={(valores) => {
               let errores = {};
               //validación de nombre
@@ -63,6 +65,7 @@ const Login = () => {
               }
               return errores;
             }}
+            {/** */}
             onSubmit={(valores ,{resetForm}) => {
               
                 resetForm();
@@ -76,7 +79,7 @@ const Login = () => {
             {( {values, errors, touched, handleChange, handleBlur} ) => (
               <Form className='form' onSubmit={(e) => handleSubmit(e)}>
                
-
+                {/*formulario */}
                <div >
                  <h1 className='Tit'>Registro Panel Administrativo ⚙️</h1>
                </div>
