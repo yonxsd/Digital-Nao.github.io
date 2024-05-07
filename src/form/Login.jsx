@@ -79,7 +79,7 @@ const Login = () => {
                  <Field 
                   type="name" 
                   id='nombre' 
-                  name='Name' 
+                  name='nombre' 
                   placeholder='johnny' 
                   
                   />
