@@ -69,7 +69,8 @@
     position: absolute;
    font-size: 25px;
    margin-left: 2rem;
-   
+   color: white;
+   filter:drop-shadow(10px 7px 10px black);
 }
 
 .nom{
