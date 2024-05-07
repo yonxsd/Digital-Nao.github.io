@@ -95,7 +95,7 @@ const Login = () => {
                   <br />
                 <ErrorMessage name="name" component={() => (
                     <div className='error1'>{errors.name}</div>
-                  )} />
+                )}/>
                 </div>
                 <div className="cor">
                 <label htmlFor="correo">Email</label>
