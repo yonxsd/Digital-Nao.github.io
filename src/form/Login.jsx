@@ -161,7 +161,7 @@ const Login = () => {
                <br />
                <br />
                <br />
-               {formularioenviado  && <span className="loading loading-dots loading-lg cargando"></span>}
+               {formularioenviado  && <span className="loading loading-dots loading-lg cargando"></span> }
              </Form>
             )}
             
