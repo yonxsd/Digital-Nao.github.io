@@ -361,10 +361,12 @@ const ManageTeam = () => {
             <tfoot>
               <tr>
                 <th></th>
+                <th>id</th>
                 <th>Name</th>
-                <th>Job</th>
-                <th>Favorite Color</th>
-                <th></th>
+                <th>Email</th>
+                <th>age</th>
+                <th>phone</th>
+                <th>access</th>
               </tr>
             </tfoot>
             
