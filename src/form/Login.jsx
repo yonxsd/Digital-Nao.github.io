@@ -78,7 +78,7 @@ const Login = () => {
                
 
                <div >
-                 <h1 className='Tit'>Registro Panel Administrativo</h1>
+                 <h1 className='Tit'>Registro Panel Administrativo ⚙️</h1>
                </div>
                <div className='nom'>
                  <label htmlFor="nombre">Full name</label>
