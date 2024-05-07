@@ -1,18 +1,26 @@
 
-import React, {useState} from 'react'
-
-
-import "./Form.css"
-import { Formik,Form,Field,ErrorMessage } from 'formik';
-
+import React, { useState } from "react";
+import {Formik,Form,Field,ErrorMessage } from  'formik';
+import { useDispatch } from "react-redux";
+import { login } from "../features/userSelice";
 import img from '../assets/imgform.jpg';
-
-
-
+import "./Form.css"
 
 const Login = () => {
   const [formularioenviado, cambiarformularioenviado] = useState(false);
- 
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const dispatch = useDispatch();
+  const handleSubmit = (e) => {
+      e.preventDefault();
+      dispatch(
+        login({
+        
+         loggedIn: true,
+        })
+      );
+  };
 
   return (
     <>
@@ -68,7 +76,7 @@ const Login = () => {
            
           >
             {( {values, errors, touched, handleChange, handleBlur} ) => (
-              <Form className='form' >
+              <Form className='form' onSubmit={(e) => handleSubmit(e)}>
                
 
                <div >
