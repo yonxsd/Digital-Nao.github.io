@@ -71,8 +71,8 @@ const Formulario = () => {
               <Form className='form' >
                
 
-               <div className='Tit'>
-                 <h1>Registro Panel Administrativo</h1>
+               <div >
+                 <h1 className='Tit'>Registro Panel Administrativo</h1>
                </div>
                <div className='nom'>
                  <label htmlFor="nombre">Full name</label>

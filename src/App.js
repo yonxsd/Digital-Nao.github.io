@@ -5,7 +5,7 @@ import Sidebar from "./layout/Sidebar";
 import { useSelector } from 'react-redux';
 import { selectUser } from './features/userSelice';
 import Login from "./form/Login"
-import Formulario from './form/Formulario';
+
 
 
 const App = () => {
@@ -21,7 +21,7 @@ const AppContent = () => {
 
   return (
     <div>
-      {user ? <Sidebar /> : <Formulario />}
+      {user ? <Sidebar /> : <Login />}
     </div>
   );
 };
