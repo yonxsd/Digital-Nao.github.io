@@ -80,9 +80,7 @@ const Login = () => {
               <Form className='form' onSubmit={(e) => handleSubmit(e)}>
                
                 {/*formulario */}
-               <div >
-                 <h1 className='Tit'>Registro Panel Administrativo ⚙️</h1>
-               </div>
+               <h1 className='Tit'>Registro Panel Administrativo ⚙️</h1>
                <div className='nom'>
                  <label htmlFor="nombre">Full name</label>
                  <Field 
@@ -147,7 +145,7 @@ const Login = () => {
                </div>
                <div className='cont'>
                  <label htmlFor="confirmPassword">Confirm Password</label>
-                 <Field type="password"  id='confirmPassword' name='confirmPassword' placeholder='Confirm Password' />
+                 <Field type="confirmpassword"  id='confirmPassword' name='confirmPassword' placeholder='Confirm Password' />
                  <br />
                   <br />
                   <br />
